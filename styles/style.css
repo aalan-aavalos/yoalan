@@ -1,8 +1,41 @@
+@font-face {
+    font-family: aaa;
+    src: url('../fonts/Comication.otf')
+}
+
 *{
+    font-family: 'aaa';
+}
+
+body{
     background: black;
-    padding: 20px;
+    padding: 10px;
+    border: 5px solid;
+    border-color: white;
 }
 
 h1{
     color: white;
+    border: 5px solid;
+    border-color: white;
+}
+
+#footer{
+    background: #0000009a;
+    color: #FFF;
+    padding: 2px;
+    position: fixed;
+    bottom: 0;
+    border: 5px solid;
+    border-color: white;
+    font-size: x-large;
+}
+
+
+#footer:hover{
+    color: black;
+    background: #FFFFFF9a;
+    border: 5px solid;
+    border-color: white;
+    font-size: x-large;
 }
