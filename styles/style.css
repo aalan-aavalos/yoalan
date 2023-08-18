@@ -1,7 +1,8 @@
+body{
+    background: black;
+    padding: 20px;
+}
+
 h1{
     color: white;
-    background: black;
-    text-align: center;
-    text-decoration: solid;
-    text-shadow: 50%;
 }
